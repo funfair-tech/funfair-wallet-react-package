@@ -1,0 +1,39 @@
+{
+  "name": "@funfair-tech/wallet-react",
+  "version": "1.1.3",
+  "description": "Components for hooking the wallet into a react project",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir build",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "FunFair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funfair-tech/fun-wallet-docs/issues"
+  },
+  "homepage": "https://github.com/funfair-tech/fun-wallet-docs#readme",
+  "keywords": [
+    "sdk",
+    "ethereum",
+    "blockchain"
+  ],
+  "peerDependencies": {
+    "react": ">=16.6.1",
+    "react-dom": ">=16.6.3",
+    "@funfair-tech/wallet-sdk": ">=3.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-import-css": "^1.0.0-alpha.11",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "dependencies": {
+    "load-styles": "^2.0.0"
+  }
+}

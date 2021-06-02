@@ -1,0 +1,13 @@
+{
+  "sourceMaps": "inline",
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-transform-react-jsx",
+    [
+      "transform-import-css",
+      {
+        "generateScopedName": "[local]"
+      }
+    ]
+  ]
+}
